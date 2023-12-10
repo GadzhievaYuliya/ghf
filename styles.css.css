@@ -1,14 +1,16 @@
-/* styles.css */
+/* Общие стили */
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f7f7f7; /* Пастельный фон */
+  color: #333; /* Цвет текста */
 }
 
 header {
-  background-color: #333;
-  color: white;
+  background-color: #a8d8e0; /* Пастельный цвет для заголовка */
+  color: #fff; /* Цвет текста в заголовке */
   padding: 10px 0;
   text-align: center;
 }
@@ -25,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #fff; /* Цвет текста ссылок в навигации */
   text-decoration: none;
 }
 
@@ -34,11 +36,21 @@ main {
 }
 
 footer {
-  background-color: #333;
-  color: white;
+  background-color: #a8d8e0; /* Пастельный цвет для подвала */
+  color: #fff; /* Цвет текста в подвале */
   text-align: center;
   padding: 10px 0;
   position: absolute;
   bottom: 0;
   width: 100%;
 }
+
+/* Специфические стили для каждой страницы */
+
+/* Для главной страницы */
+h1 {
+  color: #333; /* Цвет заголовков */
+}
+
+/* Для страницы "О нас" */
+/* Для страницы "Контакты" */
